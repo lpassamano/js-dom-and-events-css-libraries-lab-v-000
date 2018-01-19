@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
-
+      .muted {color: #999;}
     </style>
   </head>
-  <body>
-
+  <body class="flex justify-center">
+    <div style="width: 600px;"
+    class="flex flex-column items-stretch mt4">
+      <div class="clearfix border-bottom mb2">
+        <div class="left mr1">
+          <img class="rounded" height="50" src="https://avatars.githubusercontent.com/u/23546410"
+          alt="Tweeter1 profile picture" />
+        </div>
+        <div class="overflow-hidden">
+          <small><strong>Tweeter1</strong> <span class="muted">@twitterhandle -
+            Date</span></small>
+          <p>
+            Tweet tweet tweet! #imontwitter I can put more words... words... words
+            words.... words.... words
+          </p>
+        </div>
+      </div>
+      <div class="clearfix border-bottom mb2">
+        <div class="left mr1">
+          <img class="rounded" height="50" src="https://avatars.githubusercontent.com/u/20408148"
+          alt="Tweeter2 profile picture" />
+        </div>
+        <div class="overflow-hidden">
+          <small><strong>Tweeter2</strong> <span class="muted">@twitterhandle -
+            Date</span></small>
+          <p>
+            Tweet tweet tweet! #ilovecats
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
